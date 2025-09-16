@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+}
+
+/* COLORS */
+
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray500: hsl(0, 0%, 42%);
+    --gray950: hsl(0, 0%, 7%);
+}
+
+
+/* MOBILE FIRST DESIGN */
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yellow);
+    max-width: 375px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card {
+    background-color: var(--white);
+    padding: 30px;
+    margin: 50px auto 0 auto;
+    border-radius: 25px;
+    border: 1px solid black;
+    box-shadow: 10px 10px;
+}
+
+.learning {
+    background-color: var(--yellow);
+    font-size: 0.8rem;
+    font-weight: 900;
+    padding: 7px;
+    border-radius: 3px;
+    width: auto;
+    margin: 25px auto 15px auto;
+}
+
+.date {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 1.4rem;
+    margin: 15px auto;
+}
+
+.text {
+    color: var(--gray500);
+}
+
+.avatar {
+    scale: 0.6;
+    margin: 0;
+}
+
+.blog-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.attribution {
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: purple;
+}
